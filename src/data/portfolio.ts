@@ -22,11 +22,11 @@ export const profile = {
     github: 'https://github.com/IamHans',
   },
   resumePdf: '/assets/Hansraj_Resume.pdf',
-  portrait: {
-    src: '/assets/hansraj-portrait.png',
-    srcSet: '/assets/hansraj-portrait.png',
-    alt: 'Portrait of Hansraj',
-  },
+portrait: {
+  src: `${import.meta.env.BASE_URL}assets/hansraj-portrait.png`,
+  srcSet: `${import.meta.env.BASE_URL}assets/hansraj-portrait.png`,
+  alt: 'Portrait of Hansraj',
+},
   interests: ['Full-Stack Development', 'Cybersecurity', 'Building Web Projects', 'Learning by Doing'],
 };
 
