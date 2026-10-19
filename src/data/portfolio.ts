@@ -23,8 +23,8 @@ export const profile = {
   },
   resumePdf: '/assets/Hansraj_Resume.pdf',
 portrait: {
-  src: `${import.meta.env.BASE_URL}assets/hansraj-portrait.png`,
-  srcSet: `${import.meta.env.BASE_URL}assets/hansraj-portrait.png`,
+src: '/hansraj/assets/hansraj-portrait.png',
+srcSet: '/hansraj/assets/hansraj-portrait.png',
   alt: 'Portrait of Hansraj',
 },
   interests: ['Full-Stack Development', 'Cybersecurity', 'Building Web Projects', 'Learning by Doing'],
